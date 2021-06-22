@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap');
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+#main-container{
+  max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+#left-column{
+  width: 40%;
+}
+
+#left-column img{
+  width: 100%;
+  margin-top: 50px;
+}
+
+.product-description{
+  margin-bottom: 40px;
+}
+
+.heading-name{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 44px;
+  letter-spacing: -2px;
+}
+
+.brand-name{
+  margin-top: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: rgb(27, 25, 25);
+}
+
+.product-price{
+  margin-top: 20px;
+    font-weight: 200;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: rgb(27, 25, 25);
+}
+
+.desc-heading{
+  margin-top: 20px;
+    font-weight: 200;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: rgb(27, 25, 25);
+}
+
+.desc-explain{
+  margin-top: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #86939e;
+}
+
+#right-column{
+  width: 60%;
+    margin-top: 40px;
+    padding-left: 30px
+}
+
+.product-preview h3{
+  margin-top: 20px;
+    font-weight: 200;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: rgb(27, 25, 25);
+}
+
+#previewing{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+    margin-top: 20px;
+}
+
+#previewing img{
+  margin: 5px;
+    width: 15%;
+    height: 30%;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 6px;
+}
+
+#img0{
+  border: 2px solid #009688;
+}
+
+.border-img{
+  border: 2px solid #009688;
+}
+
+.border-none{
+  border: none;
+}
